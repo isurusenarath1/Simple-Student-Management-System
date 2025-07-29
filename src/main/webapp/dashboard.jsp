@@ -5,7 +5,6 @@
 
 <%
 // Check if user is logged in
-HttpSession session = request.getSession(false);
 if (session == null || session.getAttribute("loggedIn") == null) {
     response.sendRedirect("login.jsp");
     return;
