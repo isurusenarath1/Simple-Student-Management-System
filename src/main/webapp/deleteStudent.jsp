@@ -52,10 +52,6 @@ String success = (String) request.getAttribute("success");
                 </div>
             <% } else { %>
                 <h2>Select Student to Delete</h2>
-                <p style="color: #e53e3e; margin-bottom: 20px;">
-                    <strong>⚠️ Warning:</strong> This action cannot be undone. The selected student will be permanently removed from the system.
-                </p>
-                
                 <form action="student" method="post" onsubmit="return confirm('Are you sure you want to delete this student? This action cannot be undone.');">
                     <input type="hidden" name="action" value="delete">
                     

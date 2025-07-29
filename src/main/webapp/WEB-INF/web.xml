@@ -28,22 +28,6 @@
         <location>/error.jsp</location>
     </error-page>
     
-    <!-- Security constraints -->
-    <security-constraint>
-        <web-resource-collection>
-            <web-resource-name>Protected Pages</web-resource-name>
-            <url-pattern>/dashboard.jsp</url-pattern>
-            <url-pattern>/addStudent.jsp</url-pattern>
-            <url-pattern>/viewStudents.jsp</url-pattern>
-            <url-pattern>/updateStudent.jsp</url-pattern>
-            <url-pattern>/deleteStudent.jsp</url-pattern>
-            <url-pattern>/student</url-pattern>
-        </web-resource-collection>
-        <auth-constraint>
-            <role-name>user</role-name>
-        </auth-constraint>
-    </security-constraint>
-    
     <security-role>
         <role-name>user</role-name>
     </security-role>
