@@ -60,7 +60,7 @@ if (username == null) {
                 
                 <div style="text-align: center; margin-top: 20px;">
                     <p style="color: #718096; font-size: 14px;">
-                        <strong>Demo Credentials:</strong><br>
+                        <strong>Hard Coded Credentials:</strong><br>
                         Username: <code>admin</code><br>
                         Password: <code>password</code>
                     </p>
